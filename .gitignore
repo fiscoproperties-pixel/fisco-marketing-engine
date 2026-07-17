@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Browser diagnostics and generated output
+diagnostics/
+output/
+
+# Downloaded and processed listing photos
+assets/photos/*/downloaded/
+assets/photos/*/accepted/
+assets/photos/*/rejected/
+assets/photos/*/gallery_cleaning_report.json
+
+# Collected runtime listing records
+data/*_collected.json
+
+# Windows and editor files
+Thumbs.db
+.DS_Store
+.vscode/
+.idea/
