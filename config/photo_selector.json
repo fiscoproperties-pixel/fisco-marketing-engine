@@ -1,0 +1,23 @@
+{
+  "standard_residential": {
+    "required_categories": [
+      "exterior",
+      "kitchen",
+      "living_room"
+    ],
+    "preferred_fourth": [
+      "primary_bathroom",
+      "backyard",
+      "primary_bedroom",
+      "view",
+      "dining_room"
+    ],
+    "maximum_per_category": 1,
+    "output_order": [
+      "exterior",
+      "kitchen",
+      "living_room",
+      "primary_bathroom"
+    ]
+  }
+}
