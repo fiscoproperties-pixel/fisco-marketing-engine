@@ -1,6 +1,6 @@
 from pathlib import Path
 
-from app.photo_ranker import rank_photos
+from app.ranking.photo_ranker import rank_photos
 
 
 def main() -> None:
